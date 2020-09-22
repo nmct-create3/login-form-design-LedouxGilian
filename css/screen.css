@@ -506,7 +506,7 @@ label {
     color: #20223A;
     font-size: 16px;
     line-height: 24px;
-    padding: 11px;
+    padding: 11px 12px;
 }
 
 .c-input:focus {
