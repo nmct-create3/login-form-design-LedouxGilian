@@ -25,12 +25,12 @@
 html {
     font-size: 16px;
     line-height: 1.5;
-    font-family: Helvetica, arial, sans-serif;
-    color: grey;
+    font-family: Inter, sans-serif;
+    color: #20223a;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: white;
+    background-color: #F5F6FA ;
 }
 
 *,
@@ -47,13 +47,13 @@ html {
 */
 
 ::-moz-selection {
-    background: HotPink;
+    background: #3385ff;
     color: white;
     text-shadow: none;
 }
 
 ::selection {
-    background: HotPink;
+    background: white ;
     color: white;
     text-shadow: none;
 }
@@ -158,18 +158,18 @@ hr {
 }
 
 a {
-    color: HotPink;
+    color: #3385ff;
     transition: all .1s ease-in-out;
 }
 
 a:visited,
 a:active {
-    color: HotPink;
+    color: #6fa8ff;
 }
 
 a:hover,
 a:focus {
-    color: DeepPink;
+    color: #0061f4;
 }
 
 /*------------------------------------*\
