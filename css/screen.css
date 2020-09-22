@@ -470,6 +470,32 @@ label {
     ---
     Card with box shadow
 */
+.c-card {
+    background-color: white;
+    border: 1px solid #e6e7eb;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
+    border-radius: 3px;
+}
+
+.c-card__body {
+    padding: 0 48px;
+}
+
+.c-card__header {
+    padding: 48px 48px 24px;
+}
+
+.c-card__title {
+    align-items: center;
+    margin-bottom: 0;
+
+}
+
+.c-card__footer {
+    border-top: 1px solid #E2E3E7;
+    padding: 24px 48px;
+
+}
 
 /*
     Component: Forms
@@ -507,10 +533,12 @@ label {
     font-size: 16px;
     line-height: 24px;
     padding: 11px 12px;
+    outline: none;
 }
 
 .c-input:focus {
-
+    border-color: #3385ff;
+    box-shadow: 0 0 2px 3px #3385ff4d;
 }
 
 /*
@@ -536,19 +564,31 @@ label {
 */
 
 .c-button {
+    background-color: #3385ff;
+    border-radius: 3px;
+    border: 1px solid #2E77E6;
 
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 13px 12px;
+
+    width: 100%;
+    outline: none;
 }
 
 .c-button:hover {
-
+    background-color: #186deb;
 }
 
 .c-button:focus {
-
+    background-color: #3385FF;
+    box-shadow: 0 0 4px 2px #3385fffd;
 }
 
 .c-button:active {
-
+    background-color: #2E77E6;
 }
 
 .c-button--block {
