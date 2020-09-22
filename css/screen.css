@@ -53,7 +53,7 @@ html {
 }
 
 ::selection {
-    background: white ;
+    background: #3385ff ;
     color: white;
     text-shadow: none;
 }
@@ -170,6 +170,17 @@ a:active {
 a:hover,
 a:focus {
     color: #0061f4;
+}
+
+/*
+    Elements: forms
+    ---
+    Default markup for forms
+*/
+
+input,
+label {
+    display: block;
 }
 
 /*------------------------------------*\
@@ -431,6 +442,28 @@ a:focus {
     ---
     Website main logo
 */
+.c-logo {
+    height: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.c-logo__inner-circle {
+    fill: #3385ff;
+}
+
+.c-logo__outer-circle {
+    fill: #1b4186;
+}
+
+.c-logo__text {
+    fill: #20223a;
+}
+
+.c-logo__symbol {
+    height: 100%;
+    display: block;
+}
 
 /*
     Component: Card
@@ -443,6 +476,14 @@ a:focus {
     ---
     Everything form related here
 */
+.c-form-field {
+
+}
+
+.c-form-field--option {
+    display: flex;
+    align-items: center;
+}
 
 /*
     Component: Input
@@ -451,10 +492,25 @@ a:focus {
 */
 
 .c-input {
+    /*reset*/
+    /*all: unset; /*use with care...*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 
+    width: 100%;
+    border: 1px solid #E2E3E7;
+    border-radius: 3px;
+
+    font-family: inherit;
+    color: #20223A;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 11px;
 }
 
 .c-input:focus {
+
 }
 
 /*
