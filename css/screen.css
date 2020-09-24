@@ -200,6 +200,9 @@ label {
 
 .o-row--login {
     /* stuff here to align the card */
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
 }
 
 /* size modifiers */
@@ -487,12 +490,12 @@ label {
 
 .c-card__title {
     align-items: center;
-
 }
 
 .c-card__footer {
     border-top: 1px solid #E2E3E7;
     padding: 24px 24px;
+    color: #606274;
 
 }
 
@@ -568,7 +571,15 @@ label {
 */
 
 .c-label {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    color: #606274;
+}
 
+.c-label--option {
+    margin-bottom: 0;
+    padding-left: 8px;
 }
 
 /* If a input is focused within the form-field class change te color of the label */
